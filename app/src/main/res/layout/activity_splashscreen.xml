@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashscreen">
+
+
+    <ImageView
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+
+        android:scaleType="fitXY"
+
+        android:src="@drawable/back2" />
+
+
+
+    <ProgressBar
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:layout_below="@+id/back2"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/progressbar"
+
+
+
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/developers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Developed by Denzel Mayoyo and "
+        android:textAlignment="center"
+        android:textColor="@color/light_blue"
+        android:textSize="25dp"
+
+
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

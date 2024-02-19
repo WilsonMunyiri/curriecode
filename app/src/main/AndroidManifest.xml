@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/appbackground"
+        android:label="CurriCode"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kojpy"
+        tools:targetApi="31">
+        <activity
+            android:name=".physicsgrade4quiz"
+            android:exported="false" />
+        <activity
+            android:name=".chemistrygrade4quiz"
+            android:exported="false" />
+        <activity
+            android:name=".biologyquizgrade4"
+            android:exported="false" />
+        <activity
+            android:name=".geometrygrade4quiz"
+            android:exported="false" />
+        <activity
+            android:name=".sciencegrade4topics"
+            android:exported="false" />
+        <activity
+            android:name=".mathtopicsgrade4"
+            android:exported="false" />
+        <activity
+            android:name=".statisticsgrade4quiz"
+            android:exported="false" />
+        <activity
+            android:name=".probabilitygrade4quiz"
+            android:exported="false" />
+        <activity
+            android:name=".gradefour"
+            android:exported="false" />
+        <activity
+            android:name=".statisticsgrade3quiz"
+            android:exported="false" />
+        <activity
+            android:name=".probabilitygrade3quiz"
+            android:exported="false" />
+        <activity
+            android:name=".geometrygrade3quiz"
+            android:exported="false" />
+        <activity
+            android:name=".chemistrygrade3"
+            android:exported="false" />
+        <activity
+            android:name=".biologygade3"
+            android:exported="false" />
+        <activity
+            android:name=".physicsgrade3"
+            android:exported="false" />
+        <activity
+            android:name=".sciencetopicsgrade3"
+            android:exported="false" />
+        <activity
+            android:name=".mathtopicsgrade3"
+            android:exported="false" />
+        <activity
+            android:name=".gradethree"
+            android:exported="false" />
+        <activity
+            android:name=".physicsgrade2"
+            android:exported="false" />
+        <activity
+            android:name=".biologygrade2"
+            android:exported="false" />
+        <activity
+            android:name=".chemistrygrade2"
+            android:exported="false" />
+        <activity
+            android:name=".sciencegrade2"
+            android:exported="false" />
+        <activity
+            android:name=".Trigonometry2quiz"
+            android:exported="false" />
+        <activity
+            android:name=".calculus2quiz"
+            android:exported="false" />
+        <activity
+            android:name=".mathtopicsgradetwo"
+            android:exported="false" />
+        <activity
+            android:name=".algebra2quiz"
+            android:exported="false" />
+        <activity
+            android:name=".gradetwo"
+            android:exported="false" />
+        <activity
+            android:name=".biologyquiz"
+            android:exported="false" />
+        <activity
+            android:name=".physicsquiz"
+            android:exported="false" />
+        <activity
+            android:name=".chemistryquiz"
+            android:exported="false" />
+        <activity
+            android:name=".sciencetopicsgrade1"
+            android:exported="false" />
+        <activity
+            android:name=".calculusquiz"
+            android:exported="false" />
+        <activity
+            android:name=".Mathtopicsgrade1"
+            android:exported="false" />
+        <activity
+            android:name=".loginscreen"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".gradeone"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".QuizActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+
+            <!-- Remove intent filter for MAIN and LAUNCHER -->
+        </activity>
+        <activity
+            android:name=".assignments"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".kotlinintro"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".javascriptintro"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@layout/activity_javascriptintro"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+
+        <activity
+            android:name=".pythonintro"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".programmingclass"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".signup"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true"
+            android:theme="@style/splashscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
