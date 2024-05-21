@@ -79,11 +79,11 @@ class chemistryquiz : AppCompatActivity() {
 
     private fun generateQuestions(): List<Question> {
         return listOf(
-            Question(" SOLVE :y=4y2−7y+1", listOf("1.593 OR 0.157", "1.090 OR 0.236", "I do not know", "Not possible"), 0),
-            Question("SLOVE FOR y : t=4−7t", listOf("1/2", "2", "4", "0"), 1),
-            Question("Who wrote 'To Kill a Mockingbird'?", listOf("Harper Lee", "Jane Austen", "Charles Dickens", "Mark Twain"), 0),
-            Question("What is the chemical symbol for water?", listOf("O", "W", "H2O", "H"), 2),
-            Question("Which of the following is not a primary color?", listOf("Red", "Blue", "Green", "Yellow"), 1)
+            Question(" What is water made of?", listOf(" Sugar and salt", "Oxygen and carbon", "Hydrogen and oxygen", "Hydrogen and nitrogen"), 1),
+            Question("Which of these is a property of ice?", listOf(" It is a liquid", "It is hot", "It is solid", "It is gas"), 1),
+            Question("Which of the following materials is transparent?", listOf("Wood", "Glass", "Paper", "Metal"), 2),
+            Question("What do you call a change from solid to liquid?", listOf("Evaporation", "Melting", "Sublimation", "I don't know"), 3),
+            Question("Which of these is a common gas that we breathe out?", listOf("Oxygen", "Hydrogen", "Carbon dioxide", "Helium"), 1)
         )
 
 

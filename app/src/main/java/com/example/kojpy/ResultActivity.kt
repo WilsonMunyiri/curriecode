@@ -25,8 +25,6 @@ class ResultActivity : AppCompatActivity() {
             resultLayout.addView(resultTextView)
         }
 
-        val scoreTextView = findViewById<TextView>(R.id.scoreTextView)
-        scoreTextView.text = "Your score: $score out of $totalQuestions"
     }
 }
 

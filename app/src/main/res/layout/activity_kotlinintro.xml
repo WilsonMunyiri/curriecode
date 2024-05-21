@@ -7,6 +7,29 @@
     android:background="@drawable/amoled"
     tools:context=".javascriptintro">
 
+    <TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Go ahead and test out the kotlin compiler."
+    android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="570dp"
+    android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/toide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To IDE."
+        android:textColor="@color/light_blue"
+        android:layout_marginTop="600dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
 
     <TextView
         android:id="@+id/what_is_javascript"
@@ -55,6 +78,8 @@
 
         </VideoView>
     </FrameLayout>
+
+
 
 </RelativeLayout>
 

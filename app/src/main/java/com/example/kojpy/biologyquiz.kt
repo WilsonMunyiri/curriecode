@@ -81,11 +81,11 @@ class biologyquiz : AppCompatActivity() {
 
     private fun generateQuestions(): List<Question> {
         return listOf(
-            Question(" SOLVE :y=4y2−7y+1", listOf("1.593 OR 0.157", "1.090 OR 0.236", "I do not know", "Not possible"), 0),
-            Question("SLOVE FOR y : t=4−7t", listOf("1/2", "2", "4", "0"), 1),
-            Question("Who wrote 'To Kill a Mockingbird'?", listOf("Harper Lee", "Jane Austen", "Charles Dickens", "Mark Twain"), 0),
-            Question("What is the chemical symbol for water?", listOf("O", "W", "H2O", "H"), 2),
-            Question("Which of the following is not a primary color?", listOf("Red", "Blue", "Green", "Yellow"), 1)
+            Question(" Which part of the plant grows underground?", listOf("Leaf", "Stem", "I do not know", "Root"), 0),
+            Question("What do plants need to make their food?", listOf("Water, sunlight, and soil", "Rocks, air, and water", "Rocks, air, and water", "Water, sunlight, and air"), 0),
+            Question("Which animal is known for its long neck?", listOf("Elephant", "Lion", "Giraffe", "Monkey"), 1),
+            Question("Which part of the body helps you to see?", listOf(" Eyes", "Nose", "Mouth", "Ears"), 3),
+            Question("What do bees collect from flowers to make honey?", listOf(" Water", "Nectar", "Milk", "Seeds"), 2)
         )
 
 

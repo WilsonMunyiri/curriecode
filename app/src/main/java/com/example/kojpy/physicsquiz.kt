@@ -82,11 +82,11 @@ class physicsquiz : AppCompatActivity() {
 
     private fun generateQuestions(): List<Question> {
         return listOf(
-            Question(" SOLVE :y=4y2−7y+1", listOf("1.593 OR 0.157", "1.090 OR 0.236", "I do not know", "Not possible"), 0),
-            Question("SLOVE FOR y : t=4−7t", listOf("1/2", "2", "4", "0"), 1),
-            Question("Who wrote 'To Kill a Mockingbird'?", listOf("Harper Lee", "Jane Austen", "Charles Dickens", "Mark Twain"), 0),
-            Question("What is the chemical symbol for water?", listOf("O", "W", "H2O", "H"), 2),
-            Question("Which of the following is not a primary color?", listOf("Red", "Blue", "Green", "Yellow"), 1)
+            Question(" What is the main source of light on Earth?", listOf(" Moon", "Star", "Fire flies", "Sun"), 0),
+            Question("Which of these objects can be attracted by a magnet?", listOf("Wooden stick", "Iron Nail", "Glass", "Rubber band"), 2),
+            Question("What happens when you push a toy car on the floor?", listOf(" It stops immediately", " It moves forward", "It moves backward", "It floats in the air"), 0),
+            Question("What is it called when water changes from liquid to gas?", listOf("Evaporation", "Freezing", "Condensation", "Boiling"), 3),
+            Question("What do we use to measure time?", listOf("Calculator", "Clock", "Ruler", "Beam balance"), 2)
         )
 
 

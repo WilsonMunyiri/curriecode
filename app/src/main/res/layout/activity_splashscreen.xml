@@ -7,52 +7,19 @@
     tools:context=".splashscreen">
 
 
-    <ImageView
-        android:id="@+id/back2"
-        android:layout_width="wrap_content"
-        android:layout_height="400dp"
 
+    <com.google.android.material.imageview.ShapeableImageView
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+      android:layout_centerInParent="true"
         android:scaleType="fitXY"
-
-        android:src="@drawable/back2" />
-
-
-
-    <ProgressBar
-        android:layout_marginTop="100dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressbar"
-        android:layout_below="@+id/back2"
-        android:layout_centerHorizontal="true"
-        android:theme="@style/progressbar"
-
+        android:src="@drawable/mylogo"
+        app:shapeAppearanceOverlay="@style/circular2"
+        app:strokeWidth="2dp"
 
 
         />
-
-
-
-
-
-    <TextView
-        android:id="@+id/developers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/progressbar"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="sans-serif"
-        android:text="Developed by Denzel Mayoyo and "
-        android:textAlignment="center"
-        android:textColor="@color/light_blue"
-        android:textSize="25dp"
-
-
-
-        />
-
-
-
 
 
 

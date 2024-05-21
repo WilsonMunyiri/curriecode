@@ -4,6 +4,9 @@
         <item name="cornerSize">40%</item>
     </style>
 
+    <style name="circular2">
+        <item name="cornerSize">25%</item>
+    </style>
 
 
 </resources>

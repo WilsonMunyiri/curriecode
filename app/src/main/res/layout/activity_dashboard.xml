@@ -26,12 +26,12 @@
 
         android:background="@color/white"
         android:fontFamily="sans-serif"
-        android:text="Welcome to Kojpy+ Dashboard!"
+        android:text="Welcome to CurrieCode+ Dashboard!"
         android:textAlignment="center"
         android:textColor="@color/light_blue"
-        android:textSize="35dp"
+        android:textSize="27dp"
 
-        android:textStyle="bold" />
+         />
 
     <ImageView
         android:id="@+id/mainimgddash"
@@ -82,7 +82,7 @@ Kenya's CBC curriculum fosters critical thinking, creativity, and practical skil
         android:textColor="@color/black"
         android:textSize="20dp"
 
-        android:textStyle="bold"
+
 
 
         />
@@ -105,7 +105,7 @@ Kenya's CBC curriculum fosters critical thinking, creativity, and practical skil
         android:textAlignment="center"
         android:textColor="@color/light_blue"
         android:textSize="20dp"
-        android:textStyle="bold" />
+     />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:layout_below="@+id/cbcoverviewtext"
@@ -147,7 +147,7 @@ Kenya's CBC curriculum fosters critical thinking, creativity, and practical skil
         android:textColor="@color/black"
         android:textSize="20dp"
 
-        android:textStyle="bold"
+
 
 
         />
@@ -168,7 +168,7 @@ Kenya's CBC curriculum fosters critical thinking, creativity, and practical skil
         android:textAlignment="center"
         android:textColor="@color/light_blue"
         android:textSize="20dp"
-        android:textStyle="bold" />
+        />
 
 
 </RelativeLayout>
